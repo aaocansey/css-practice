@@ -1,0 +1,91 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: lightblue;
+}
+.Reg-Form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.Reg-Form header{
+	background-color: white;
+	border-top: 8px solid blue;
+	border-radius: 8px;
+	width: 95vh;
+	padding: 0 0 10px 0; 
+	margin-top: 30px;
+}
+
+header span, header p, header a, .quebox label, .quebox input, p {
+	font-weight: lighter;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+
+header span{
+	position: relative;
+	left: 30px;
+	margin-right: 35px;
+}
+header p{
+	margin: 15px 30px;
+}
+
+p{
+	padding:  5px 0 0 0;
+}
+
+header a:link{
+	text-decoration: none;
+}
+
+.hd3{
+	margin: 10px 0;
+}
+
+form div{
+	background-color: white;
+	border-radius: 8px;
+	margin: 15px 0;
+	padding: 30px;
+	/*height: 120px;*/
+	width: 95vh;	
+}
+
+.quebox label, .quebox input{
+	display: block;
+}
+
+.quebox input{
+	border: none;
+	border-bottom: 1px solid lightgray;
+	height: 30px; 
+	width: 300px;
+	margin: 40px 0 0;
+	opacity: 0.7;
+}
+
+#kin{
+	height: 150px;
+}
+
+.line{
+	margin: 5px 0 10px;
+	border-top: 1px solid lightgray;
+}
+
+.asterisk{
+	color: red;
+}
+
+h1{
+	margin: 10px 30px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}

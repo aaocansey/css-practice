@@ -1,0 +1,53 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: lightblue;
+}
+.main-form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+#header {
+	background-color: white;
+	width: 80vh;
+	height: 250px;
+	margin: 10px 0;
+	padding: 40px 20px;
+	border-radius: 10px;
+	border-top:10px solid blue;
+}
+.quebox {
+	background-color: white;
+	width: 80vh;
+	height: 150px;
+	margin: 10px 0;
+	padding: 40px 20px;
+	border-radius: 10px;
+}
+
+.quebox input{
+	width: 300px;
+	margin-top: 30px;
+	border: none;
+	border-bottom: 1px solid grey;
+}
+
+/*div.quebox.radio-button{ 
+	padding: 40px 20px;
+}*/
+
+div.quebox.radio-button input{
+	position: relative;
+	right:120px;
+	margin: 5px 0;
+}
+
+
+
